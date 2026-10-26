@@ -130,7 +130,11 @@ flowchart LR
    pytest
    ```
 
----
+# LangSmith Tracing
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_API_KEY=your_langsmith_api_key
+LANGCHAIN_PROJECT=creator-os
+LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
 
 ## 📁 Repository Structure
 
@@ -164,7 +168,9 @@ flowchart LR
 └── README.md                   # Comprehensive project documentation
 ```
 
----
+# Run typechecks across TypeScript packages
+pnpm typecheck
+```
 
 ## 👤 Author
 **Bhuvanashree K R**  
